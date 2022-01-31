@@ -4,27 +4,22 @@ import { AppRouter } from '../../../components/09-useContext/AppRouter';
 import { UserContext } from '../../../components/09-useContext/UserContext';
 
 
-describe('Pruebas en <AppRouter />', () => {
-    
+describe('Test in <AppRouter />', () => {
     const user = {
         id: 1,
         name: 'Juan'
-    }
+    };
 
-    const wrapper = mount( 
+    const wrapper = mount(
         <UserContext.Provider value={{
             user
         }}>
-            <AppRouter /> 
+            <AppRouter />
         </UserContext.Provider>
     );
 
 
-    test('debe de mostrarse correctamente', () => {
-
-        expect( wrapper ).toMatchSnapshot();
-        
-    })
-    
-
-})
+    test('shold to match snapshot', () => {
+        expect(wrapper).toMatchSnapshot();
+    });
+});

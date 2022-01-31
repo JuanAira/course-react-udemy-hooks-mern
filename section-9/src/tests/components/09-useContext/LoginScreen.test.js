@@ -22,7 +22,6 @@ describe('Pruebas en <LoginScreen />', () => {
 
 
     test('debe de ejecutar el setUser con el argumento esperado', () => {
-       
         wrapper.find('button').prop('onClick')();
 
         expect( setUser ).toHaveBeenCalledWith({
