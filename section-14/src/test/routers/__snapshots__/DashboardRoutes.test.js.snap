@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in <DashboardRoutes /> should show correct DC 1`] = `ReactWrapper {}`;
+
+exports[`Tests in <DashboardRoutes /> should show to match snapshot 1`] = `ReactWrapper {}`;

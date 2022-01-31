@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in <AppRouter /> should show component Marvel if is athenticate 1`] = `ReactWrapper {}`;
+
+exports[`Test in <AppRouter /> should show login if not authenticate 1`] = `ReactWrapper {}`;

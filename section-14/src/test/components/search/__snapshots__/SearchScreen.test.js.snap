@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in < SearchScreen /> should return default values 1`] = `ReactWrapper {}`;
+
+exports[`Test in < SearchScreen /> should show a Batman and input with value queryString 1`] = `ReactWrapper {}`;
