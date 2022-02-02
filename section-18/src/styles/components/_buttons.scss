@@ -18,17 +18,18 @@
 }
 
 .btn-primary {
-    background-color: $primary;
+    background-color: $dark-grey;
     border-radius: 8px;
     margin-top: 20px;
     height: 40px;
-
+    outline: none;
+    
     &:disabled {
-        background-color: lighten($color: $primary, $amount: 15);
+        background-color: lighten($color: $dark-grey, $amount: 15);
     }
 
     &:hover {
-        background-color: darken($color: $primary, $amount: 15);
+        background-color: darken($color: $dark-grey, $amount: 15);
     }
 }
 
