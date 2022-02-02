@@ -1,9 +1,10 @@
 import React from 'react'
 
 export const NotesAppBar = () => {
+    const date = new Date();
     return (
         <div className="notes__appbar">
-            <span>28 de agosto 2020</span>
+            <span>{`${date.getDate()}/${date.getMonth() +1}/${date.getFullYear()}`}</span>
 
             <div>
                 <button className="btn">
